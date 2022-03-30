@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main()
+{
+    std::string s = "kajak";
+    ifstream f("cyfry.txt");
+    int parzyste = 0
+    while(f >> s)
+    {
+        if(s%2 == 0)
+        {
+            parzyste++;
+        }
+    }
+    
+    std::cout << parzyste << std::endl;
+
+    
+}
